@@ -1,0 +1,7 @@
+1.javac Hello.java
+
+2.g++ -shared -fPIC -I /usr/lib/jvm/java-1.7.0-openjdk-amd64/include/ c_to_java.cpp -o libhello.so  //it dependece on you jdk version
+
+3.export LD_LIBRARY_PATH=.
+
+4.java hello

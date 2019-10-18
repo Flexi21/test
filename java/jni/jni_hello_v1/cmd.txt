@@ -1,0 +1,5 @@
+1.javac Hello.java
+
+2.g++ -shared -fPIC -I /usr/lib/jvm/java-1.7.0-openjdk-amd64/include/ native.cpp -o libhello.so  //it dependece on you jdk version
+
+3.java hello

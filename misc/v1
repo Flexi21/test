@@ -1,0 +1,113 @@
+//* --------------------- PDATA_BAND1 Start ---------------------------*/
+#define    PDATA_BAND1_PR1      0x00100000     // need modified, RF1624 Low active
+#define    PDATA_BAND1_PR2      0x00100000     // need modified
+#define    PDATA_BAND1_PR2B     PDATA_BAND1_PR2
+#define    PDATA_BAND1_PR3      0x00000000     
+#define    PDATA_BAND1_PT1      PDATA_BAND1_PR1
+#define    PDATA_BAND1_PT2      0x00100000     
+#define    PDATA_BAND1_PT2B     PDATA_BAND1_PT2
+#define    PDATA_BAND1_PT3      0x00000000     
+ /* --------------------- PDATA_BAND1 End ------------------------------*/
+ /* --------------------- PDATA_BAND1 RXD Start ------------------------*/
+#define    PDATA2_BAND1_PR1     0x00000000      
+#define    PDATA2_BAND1_PR2     0x00000000      
+#define    PDATA2_BAND1_PR2B    PDATA2_BAND1_PR2
+#define    PDATA2_BAND1_PR3     0x00000000      
+ /* --------------------- PDATA_BAND1 RXD End --------------------------*/
+ /* --------------------- PDATA_BAND2 Start ----------------------------*/
+#define    PDATA_BAND2_PR1      0x00100000     
+#define    PDATA_BAND2_PR2      0x00100000     
+#define    PDATA_BAND2_PR2B     PDATA_BAND2_PR2
+#define    PDATA_BAND2_PR3      0x00000000     
+#define    PDATA_BAND2_PT1      PDATA_BAND2_PR1
+#define    PDATA_BAND2_PT2      0x00100000     
+#define    PDATA_BAND2_PT2B     PDATA_BAND2_PT2
+#define    PDATA_BAND2_PT3      0x00000000     
+ /* --------------------- PDATA_BAND2 End ------------------------------*/
+ /* --------------------- PDATA_BAND2 RXD Start ------------------------*/
+#define    PDATA2_BAND2_PR1     0x00000000 //0x00000000      
+#define    PDATA2_BAND2_PR2     0x00000000 //0x00000000      
+#define    PDATA2_BAND2_PR2B    PDATA2_BAND2_PR2
+#define    PDATA2_BAND2_PR3     0x00000000      
+ /* --------------------- PDATA_BAND2 RXD End --------------------------*/
+/* --------------------- PDATA_BAND3 Start ---------------------------*/
+#define    PDATA_BAND3_PR1      0x00000000    
+#define    PDATA_BAND3_PR2      0x00000000    
+#define    PDATA_BAND3_PR2B     PDATA_BAND3_PR2
+#define    PDATA_BAND3_PR3      0x00000000     
+#define    PDATA_BAND3_PT1      PDATA_BAND3_PR1
+#define    PDATA_BAND3_PT2      0x00000000     
+#define    PDATA_BAND3_PT2B     PDATA_BAND3_PT2
+#define    PDATA_BAND3_PT3      0x00000000     
+/* --------------------- PDATA_BAND3 End ------------------------------*/
+/* --------------------- PDATA_BAND3 RXD Start ------------------------*/
+#define    PDATA2_BAND3_PR1     0x00000000      
+#define    PDATA2_BAND3_PR2     0x00000000      
+#define    PDATA2_BAND3_PR2B    PDATA2_BAND3_PR2
+#define    PDATA2_BAND3_PR3     0x00000000      
+/* --------------------- PDATA_BAND3 RXD End --------------------------*/
+/* --------------------- PDATA_BAND4 Start ---------------------------*/
+#define    PDATA_BAND4_PR1      0x00000000     
+#define    PDATA_BAND4_PR2      0x00000000     
+#define    PDATA_BAND4_PR2B     PDATA_BAND4_PR2
+#define    PDATA_BAND4_PR3      0x00000000     
+#define    PDATA_BAND4_PT1      PDATA_BAND4_PR1
+#define    PDATA_BAND4_PT2      0x00000000     
+#define    PDATA_BAND4_PT2B     PDATA_BAND4_PT2
+#define    PDATA_BAND4_PT3      0x00000000     
+/* --------------------- PDATA_BAND4 End ------------------------------*/
+/* --------------------- PDATA_BAND4 RXD Start ------------------------*/
+#define    PDATA2_BAND4_PR1     0x00000000      
+#define    PDATA2_BAND4_PR2     0x00000000      
+#define    PDATA2_BAND4_PR2B    PDATA2_BAND4_PR2
+#define    PDATA2_BAND4_PR3     0x00000000      
+/* --------------------- PDATA_BAND4 RXD End --------------------------*/
+ /* --------------------- PDATA_BAND5 Start ----------------------------*/
+#define    PDATA_BAND5_PR1      0x00180000     
+#define    PDATA_BAND5_PR2      0x00180000     
+#define    PDATA_BAND5_PR2B     PDATA_BAND5_PR2
+#define    PDATA_BAND5_PR3      0x00000000     
+#define    PDATA_BAND5_PT1      PDATA_BAND5_PR1
+#define    PDATA_BAND5_PT2      0x00180000     
+#define    PDATA_BAND5_PT2B     PDATA_BAND5_PT2
+#define    PDATA_BAND5_PT3      0x00000000
+ /* --------------------- PDATA_BAND5 End ------------------------------*/
+ /* --------------------- PDATA_BAND5 RXD Start ------------------------*/
+#define    PDATA2_BAND5_PR1     0x00000000 //0x00000000      
+#define    PDATA2_BAND5_PR2     0x00000000 //0x00000000      
+#define    PDATA2_BAND5_PR2B    PDATA2_BAND5_PR2
+#define    PDATA2_BAND5_PR3     0x00000000      
+ /* --------------------- PDATA_BAND5 RXD End --------------------------*/
+/* --------------------- PDATA_BAND6 Start ----------------------------*/
+#define    PDATA_BAND6_PR1      PDATA_BAND5_PR1
+#define    PDATA_BAND6_PR2      PDATA_BAND5_PR2
+#define    PDATA_BAND6_PR2B     PDATA_BAND5_PR2B
+#define    PDATA_BAND6_PR3      PDATA_BAND5_PR3
+#define    PDATA_BAND6_PT1      PDATA_BAND5_PT1
+#define    PDATA_BAND6_PT2      PDATA_BAND5_PT2
+#define    PDATA_BAND6_PT2B     PDATA_BAND5_PT2B
+#define    PDATA_BAND6_PT3      PDATA_BAND5_PT3
+/* --------------------- PDATA_BAND6 End ------------------------------*/
+/* --------------------- PDATA_BAND6 RXD Start ------------------------*/
+#define    PDATA2_BAND6_PR1     PDATA2_BAND5_PR1
+#define    PDATA2_BAND6_PR2     PDATA2_BAND5_PR2
+#define    PDATA2_BAND6_PR2B    PDATA2_BAND5_PR2B
+#define    PDATA2_BAND6_PR3     PDATA2_BAND5_PR3
+/* --------------------- PDATA_BAND6 RXD End --------------------------*/
+ /* --------------------- PDATA_BAND8 Start ----------------------------*/
+#define    PDATA_BAND8_PR1      0x00080000     
+#define    PDATA_BAND8_PR2      0x00080000     
+#define    PDATA_BAND8_PR2B     PDATA_BAND8_PR2
+#define    PDATA_BAND8_PR3      0x00000000     
+#define    PDATA_BAND8_PT1      PDATA_BAND8_PR1
+#define    PDATA_BAND8_PT2      0x00080000     
+#define    PDATA_BAND8_PT2B     PDATA_BAND8_PT2
+#define    PDATA_BAND8_PT3      0x00000000
+ /* --------------------- PDATA_BAND8 End ------------------------------*/
+ /* --------------------- PDATA_BAND8 RXD Start ------------------------*/
+#define    PDATA2_BAND8_PR1     0x00000000      
+#define    PDATA2_BAND8_PR2     0x00000000      
+#define    PDATA2_BAND8_PR2B    PDATA2_BAND8_PR2
+#define    PDATA2_BAND8_PR3     0x00000000      
+ /* --------------------- PDATA_BAND8 RXD End --------------------------*/
+#else
